@@ -23,6 +23,13 @@ SKALA · 딥러닝 과제
 
 ---
 
+## 보고서
+
+- **[상세 보고서](report/full-report.md)** — 진단 과정, 실험별 분석, 학습 곡선, 계산 근거
+- [제출본 PDF (2p)](report/submission.pdf)
+
+---
+
 ## 환경 설정
 
 ```bash
@@ -184,3 +191,4 @@ set_seed(42)   # random / numpy / torch / cuda 전체 고정
 | 합계 | 30,519 |
 
 Baseline 코드의 방침에 따라 정상(none)은 5,000장만 샘플링하고 불량은 전량 사용했다. 그 결과 최다 클래스는 정상이 아닌 Edge-Ring(9,680장)이 되며, 불량 유형 간 불균형이 전면에 드러난다.
+
