@@ -25,8 +25,9 @@ SKALA · 딥러닝 과제
 
 ## 보고서
 
-- **[상세 보고서](report/full-report.md)** — 진단 과정, 실험별 분석, 학습 곡선, 계산 근거
-- [제출본 PDF (2p)](report/submission.pdf)
+- **[본문 (PDF)](report/report-main.pdf)** — 제출본
+- [부록 (PDF)](report/report-appendix.pdf) — 실험 상세 데이터 및 보조 분석
+- [상세 보고서 (Markdown)](report/full-report.md) — 진단 과정, 실험별 분석, 학습 곡선, 계산 근거
 
 ---
 
