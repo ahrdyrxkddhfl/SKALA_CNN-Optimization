@@ -2,7 +2,7 @@ import torch.nn as nn
 
 
 class BaselineCNN(nn.Module):
-    """원본 90-wafer.ipynb 구조. 파라미터 822,281개 중 97.6%가 fc[1]에 집중."""
+    """원본 00-baseline.ipynb 구조. 파라미터 822,281개 중 97.6%가 fc[1]에 집중."""
     def __init__(self, n_classes=9, dropout=0.0):
         super().__init__()
         self.layer1 = nn.Sequential(
